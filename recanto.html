@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recanto Padoin</title>
+    <style>
+        header{
+          display: flex;
+        }
+
+        .bnb img{
+            display: block;
+            max-width: 70px;
+            box-shadow: none;
+            margin: auto;
+        }
+
+        .bnb p{
+            font-size: xx-small;
+            color:  rgb(31, 177, 221);;
+            text-align: center;
+        }
+
+        header img{
+            display: block;
+            margin: auto;
+            max-width: 100px;
+            border-radius: 120px;
+            background-color: white;
+            box-shadow: 0px 0px 0px 2px green;
+            
+        }
+
+        .p{
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .p p{
+            text-align: center;
+            font-size: medium;
+            color: green;
+
+            
+        }
+
+
+
+
+    .slideshow-container {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/* Estilo das imagens */
+.slide {
+    display: none;
+    
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Efeito de fade */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4 }
+    to { opacity: 1 }
+}
+
+/* Botões de navegação */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+main img{
+    display: block;
+    margin: auto;
+    
+}
+
+.air h2{
+    text-align: center;
+    color: green;
+}
+
+.air p{
+    text-align: center;
+    background-color:  rgb(31, 177, 221);;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.air a{
+    color: white;
+}
+
+
+
+.ins h2{
+    text-align: center;
+    color: green;
+}
+
+.ins p{
+    text-align: center;
+    background-color:  rgb(31, 177, 221);;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.ins a{
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    font-size: xx-small;
+    color: white;
+    
+}
+
+footer{
+    background-color:  green;
+    max-width: 180px;
+    margin: auto;
+   
+}
+
+.local h2{
+    text-align: center;
+    color: green;
+}
+
+.local p{
+    text-align: center;
+    background-color:  rgb(31, 177, 221);;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+article img{
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+
+.txt img{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+   
+</style>
+
+</head>
+<body>
+    <header>
+        <img src="464770124_860257479467270_1035203050963399394_n.jpg" alt="">
+    </header>
+    </div>
+    <div class="p">
+        <p>Recanto com lindas paisagens ao sul de Palhoça!</p>
+    </div>
+    <div class="txt">
+        <img src="giphy (1).gif" alt="">
+    </div>
+    <div class="bnb">
+        <img src="airbnb-logo-0.png"
+         alt="">
+         <p>ESPERAMOS POR VOCÊ.</p>
+    </div>
+
+    <main>
+       
+        <div class="slideshow-container">
+            <!-- Imagens do slideshow -->
+            <div class="slide fade">
+                <img src="464915946_938160544822412_5704358716862964106_n.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide fade">
+                <img src="312493408_119314760952437_7196520800422076714_n.jpg" alt="Imagem 2">
+            </div>
+
+            <div class="slide fade">
+                <img src="SaveClip.App_312952536_501994832060390_2250071211407510436_n.jpg" alt="Imagem 4">
+            </div>
+          
+        
+            <!-- Botões de navegação -->
+            <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
+            <a class="next" onclick="mudarSlide(1)">&#10095;</a>
+        </div>
+    </main>
+
+    <div class="local">
+        <h2>LOCALIZAÇÃO</h2>
+        <p>ENSEADA DE BRITO, PALHOÇA-SC</p>
+    </div>
+
+    <div class="air">
+        <h2>AIRNBNB</h2>
+        <p><a href="">CLIQUE AQUI PARA RESERVAR.</a></p>
+    </div>
+
+    <div class="ins">
+        <h2>INSTAGRAM</h2>
+        <p><a href="">CLIQUE AQUI PARA ACESSAR.</a></p>
+    </div>
+
+    <article><img src="beija-flor medio.gif" alt=""></article>
+
+    <footer>
+        <p>@2024 VPdigital- todos os direitos reservados.</p>
+    </footer>
+
+    
+
+
+
+    <script src="recanto.js"></script>
+</body>
+</html>
